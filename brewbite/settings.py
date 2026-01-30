@@ -31,7 +31,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '.herokuapp.com',
-    'http://127.0.0.1:8000/'
+    '127.0.0.1',
 ]
 
 
@@ -92,8 +92,8 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://127.0.0.1:8000/',
-    'https://*.herokuapp.com'
+    'http://127.0.0.1:8000',
+    'https://https://brewbite-project-3642aeb782dd.herokuapp.com/',
 ]
 
 # Password validation
